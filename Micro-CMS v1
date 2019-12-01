@@ -1,0 +1,31 @@
+Flag 1
+Open 'testing' 1st page. Edit this page.
+Vulnerablity: Unsanitized title input. Simple Xss.
+Edit the title "<h1>Testing<\h1>"
+Refresh and go back.
+Flag will be displaced on pop up alert.
+
+******
+
+Flag 2
+When we create new pages the first two ids are 1,2 then it starts id'ing from 10. Umm where 3 to 9 ID's go?
+We enter ids from 3 to 9
+Ah finally we get it on 7.
+http://35.190.155.168/5c6c5e986f/page/edit/7 
+When we put this url flag will appear.
+
+******
+
+Flag 3
+Vulnerabilty: <script> is filtered but not attributed inside <>. Simple XSS.
+Edit Mardown Test page as:
+<button onclick="alert('xss')>Some button</button>
+Flag is obtained.
+
+******
+Flag 4
+url injection. Write the edit page url and add ' next to it.
+http://35.190.155.168/5c6c5e986f/page/edit/1'
+Flag is obtained.
+
+
