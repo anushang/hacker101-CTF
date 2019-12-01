@@ -1,0 +1,8 @@
+ Open source of the website.
+ Code to be noted:
+ body {
+				background-image: url("background.png");
+			}
+ Paste the url in the address 
+       http://35.190.155.168/ff232f5ca5/background.png
+ Here we go! The Flag will appear in the website.
